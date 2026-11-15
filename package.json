@@ -1,0 +1,50 @@
+{
+  "name": "sw-cpas-agent-tools",
+  "version": "1.0.0",
+  "description": "CLI, MCP configuration, agent skill and plugin for SW Accounting & Consulting Corp, a bilingual (English/Korean) CPA firm in Los Angeles. Public, read-only, no API key.",
+  "type": "module",
+  "bin": {
+    "sw-cpas": "bin/sw-cpas.mjs"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "plugin.json",
+    "mcp.json",
+    "server.json",
+    "server.docs.json",
+    "README.md",
+    "AGENTS.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "homepage": "https://sw-cpas.com/developers/",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samorj16-bot/sw-cpas-agent-tools.git"
+  },
+  "bugs": {
+    "email": "swyoun@sw-cpas.com"
+  },
+  "author": {
+    "name": "SW Accounting & Consulting Corp",
+    "email": "swyoun@sw-cpas.com",
+    "url": "https://sw-cpas.com"
+  },
+  "license": "MIT",
+  "keywords": [
+    "cpa",
+    "accounting",
+    "tax",
+    "los-angeles",
+    "korean",
+    "mcp",
+    "agent-skill",
+    "cli"
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "sw-accounting",
+  "version": "1.0.0",
+  "description": "Services, FAQs, articles and contact options of SW Accounting & Consulting Corp, a bilingual (English/Korean) CPA firm in Los Angeles. Read-only; no sign-in.",
+  "author": {
+    "name": "SW Accounting & Consulting Corp",
+    "email": "swyoun@sw-cpas.com",
+    "url": "https://sw-cpas.com"
+  },
+  "homepage": "https://sw-cpas.com/developers/",
+  "repository": "https://github.com/samorj16-bot/sw-cpas-agent-tools",
+  "license": "MIT",
+  "keywords": ["cpa", "accounting", "tax", "los-angeles", "korean", "dental", "restaurant", "esg"]
+}

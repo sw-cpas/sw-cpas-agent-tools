@@ -1,0 +1,18 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.sw-cpas/docs-mcp",
+  "title": "SW Accounting documentation",
+  "description": "Search and read sw-cpas.com pages and articles as markdown. Read-only, no sign-in.",
+  "version": "1.0.0",
+  "websiteUrl": "https://sw-cpas.com/developers/",
+  "repository": {
+    "url": "https://github.com/samorj16-bot/sw-cpas-agent-tools",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://sw-cpas.com/mcp/docs"
+    }
+  ]
+}
