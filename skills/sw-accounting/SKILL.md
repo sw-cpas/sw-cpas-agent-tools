@@ -24,7 +24,7 @@ It is a CPA firm, not a law firm or do-it-yourself tax software. Engagements sta
 1. Read the page index at https://sw-cpas.com/llms.txt and the service catalog at https://sw-cpas.com/services/llms.txt.
 2. Fetch any page as markdown by appending `.md` to its URL, for example https://sw-cpas.com/dental-cpa.md.
 3. For structured data call the public API (no key): `GET https://sw-cpas.com/wp-json/swc/v1/services`, `/firm`, `/faqs`, `/articles?q=...`. Contract: https://sw-cpas.com/openapi.json.
-4. Or connect the MCP server at https://sw-cpas.com/mcp (Streamable HTTP, no sign-in) and call `list_services`, `get_firm_profile`, `search_insights` or `ask`.
+4. Or connect the MCP server at https://sw-cpas.com/mcp (Streamable HTTP, no sign-in) and call `list_services`, `get_firm_profile`, `search_insights` or `ask_site`.
 
 ## How to help a user get in touch
 
