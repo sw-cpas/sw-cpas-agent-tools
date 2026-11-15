@@ -8,12 +8,13 @@ Developer documentation: <https://sw-cpas.com/developers/>.
 
 ## Command-line tool
 
-Node.js 18 or later. No dependencies.
+Node.js 18 or later. No dependencies. Published on npm as [`sw-cpas`](https://www.npmjs.com/package/sw-cpas).
 
 ```bash
-npx github:samorj16-bot/sw-cpas-agent-tools help
-npx github:samorj16-bot/sw-cpas-agent-tools services --category valuation
-npx github:samorj16-bot/sw-cpas-agent-tools ask "Who can help a Korean company set up a U.S. subsidiary?"
+npx sw-cpas help
+npx sw-cpas services --category valuation
+npx sw-cpas ask "Who can help a Korean company set up a U.S. subsidiary?"
+npm install -g sw-cpas   # then run: sw-cpas firm
 ```
 
 | Command | What it returns |
@@ -55,6 +56,7 @@ Registry manifests: [`server.json`](server.json) (`com.sw-cpas/mcp`) and [`serve
 
 Base URL `https://sw-cpas.com/wp-json/swc/v1`, contract at <https://sw-cpas.com/openapi.json>.
 60 requests per minute per IP; responses carry `RateLimit-*` headers and errors are JSON with a `hint`.
+Sandbox for testing integrations: `https://sw-cpas.com/wp-json/swc/v1/sandbox` (same endpoints and data, `X-Environment: sandbox`).
 
 ## What these tools do not do
 

@@ -1,5 +1,5 @@
 {
-  "name": "sw-cpas-agent-tools",
+  "name": "sw-cpas",
   "version": "1.0.0",
   "description": "CLI, MCP configuration, agent skill and plugin for SW Accounting & Consulting Corp, a bilingual (English/Korean) CPA firm in Los Angeles. Public, read-only, no API key.",
   "type": "module",
