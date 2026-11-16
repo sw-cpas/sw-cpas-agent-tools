@@ -3,10 +3,10 @@
   "name": "com.sw-cpas/docs-mcp",
   "title": "SW Accounting documentation",
   "description": "Search and read sw-cpas.com pages and articles as markdown. Read-only, no sign-in.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://sw-cpas.com/developers/",
   "repository": {
-    "url": "https://github.com/samorj16-bot/sw-cpas-agent-tools",
+    "url": "https://github.com/sw-cpas/sw-cpas-agent-tools",
     "source": "github"
   },
   "remotes": [

@@ -3,10 +3,10 @@
   "name": "com.sw-cpas/mcp",
   "title": "SW Accounting",
   "description": "Read-only facts on a bilingual LA CPA firm: services, FAQs, articles, contact. No sign-in.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "websiteUrl": "https://sw-cpas.com/developers/",
   "repository": {
-    "url": "https://github.com/samorj16-bot/sw-cpas-agent-tools",
+    "url": "https://github.com/sw-cpas/sw-cpas-agent-tools",
     "source": "github"
   },
   "remotes": [

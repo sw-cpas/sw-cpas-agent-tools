@@ -9,7 +9,7 @@
     "url": "https://sw-cpas.com"
   },
   "homepage": "https://sw-cpas.com/developers/",
-  "repository": "https://github.com/samorj16-bot/sw-cpas-agent-tools",
+  "repository": "https://github.com/sw-cpas/sw-cpas-agent-tools",
   "license": "MIT",
   "keywords": ["cpa", "accounting", "tax", "los-angeles", "korean", "dental", "restaurant", "esg"]
 }
